@@ -13,5 +13,6 @@ export default new Router({
             component: Page
         }
     ],
-    mode: 'history'
+    // 由于 github pages 部署不支持 history 模式，采用hash模式，实际项目建议使用 history 模式
+    // mode: 'history'
 })

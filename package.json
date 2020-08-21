@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev": "vue-cli-service serve",
     "build": "cross-env BUILD_PAGE=ALL vue-cli-service build",
-    "dev": "vue-cli-service serve"
+    "build:gh-pages": "cross-env BUILD_PAGE=GH_PAGES vue-cli-service build"
   },
   "dependencies": {
     "@scena/guides": "^0.9.0",
