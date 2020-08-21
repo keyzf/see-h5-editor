@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "title": "空白页面",
+        "coverImg": "//shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+    },
+    {
+        "id": 1,
+        "title": "排行榜活动",
+        "coverImg": "//img.ikstatic.cn/MTU5NzI4Mzk5NDg2MyMxMDIjcG5n.png"
+    },
+    {
+        "id": 2,
+        "title": "集卡活动",
+        "coverImg": "//img.ikstatic.cn/MTU4OTk2NzUwNzU2NSM2NjEjcG5n.png"
+    },
+    {
+        "id": 3,
+        "title": "九宫格抽奖",
+        "coverImg": "//shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+    },
+    {
+        "id": 4,
+        "title": "九宫格抽奖",
+        "coverImg": "//shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+    },
+    {
+        "id": 5,
+        "title": "排行榜活动",
+        "coverImg": "//shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+    }
+]

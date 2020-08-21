@@ -1,0 +1,361 @@
+{
+    "shareConfig": {
+        "coverImage": "",
+        "title": "这是#分享者#的大力推荐",
+        "description": "这是#分享者#大力推荐的H5"
+    },
+    "title": "未命名场景",
+    "coverImage": "http://localhost:4000/upload_static/images/1589186063932.png",
+    "description": "我用可视化编辑器做了一个超酷炫的H5，快来看看吧。",
+    "script": "",
+    "pageMode": "longPage",
+    "flipType": 0,
+    "slideNumber": false,
+    "status": 1,
+    "isPublish": true,
+    "isTemplate": false,
+    "members": [],
+    "pages": [
+        {
+            "uuid": "9e7d0146-1c40-4e5a-91c0-2bf63a7d9851",
+            "name": "",
+            "elements": [
+                {
+                    "elName": "SeeImage",
+                    "animations": [],
+                    "commonStyle": {
+                        "position": "absolute",
+                        "width": 125,
+                        "height": 46.5,
+                        "top": 495,
+                        "left": 125,
+                        "paddingTop": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingBottom": 0,
+                        "marginTop": 0,
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                        "marginBottom": 0,
+                        "borderWidth": 0,
+                        "borderColor": "",
+                        "borderStyle": "solid",
+                        "borderRadius": 0,
+                        "boxShadow": "",
+                        "fontSize": 16,
+                        "fontWeight": 500,
+                        "lineHeight": 1.4,
+                        "letterSpacing": 0,
+                        "textAlign": "left",
+                        "color": "#000000",
+                        "backgroundColor": "",
+                        "backgroundImage": "",
+                        "backgroundSize": "cover",
+                        "opacity": 1,
+                        "zIndex": 11,
+                        "transition": "unset"
+                    },
+                    "events": [],
+                    "propsValue": {
+                        "imageSrc": "//img.ikstatic.cn/MTU5NzA0MDQ1MzYwNCMyNDYjcG5n.png",
+                        "text_objectFit": {
+                            "value": "cover",
+                            "label": "填充属性"
+                        }
+                    },
+                    "valueType": "String",
+                    "uuid": "6c407733-f9d8-4815-ac27-9773e9aa2c10",
+                    "brotherUuid": "6c407733-f9d8-4815-ac27-9773e9aa2c10",
+                    "autoHeight": false,
+                    "autoWidth": false,
+                    "isForm": false,
+                    "componentsType": "basic",
+                    "invisible": false
+                },
+                {
+                    "elName": "SeeImage",
+                    "animations": [],
+                    "commonStyle": {
+                        "position": "fixed",
+                        "width": 84.5,
+                        "height": 34,
+                        "top": 490,
+                        "left": 0,
+                        "paddingTop": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingBottom": 0,
+                        "marginTop": 0,
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                        "marginBottom": 0,
+                        "borderWidth": 0,
+                        "borderColor": "",
+                        "borderStyle": "solid",
+                        "borderRadius": 0,
+                        "boxShadow": "",
+                        "fontSize": 16,
+                        "fontWeight": 500,
+                        "lineHeight": 1.4,
+                        "letterSpacing": 0,
+                        "textAlign": "left",
+                        "color": "#000000",
+                        "backgroundColor": "",
+                        "backgroundImage": "",
+                        "backgroundSize": "cover",
+                        "opacity": 1,
+                        "zIndex": 15,
+                        "transition": "unset",
+                        "right": 0
+                    },
+                    "events": [
+                        {
+                            "type": "openModal",
+                            "url": "",
+                            "uuid": "299d8944-bc72-486f-9516-ef0d304894ba"
+                        }
+                    ],
+                    "propsValue": {
+                        "imageSrc": "//img.ikstatic.cn/MTU5NzA0MDQ1MzMwOSMzNjcjcG5n.png",
+                        "text_objectFit": {
+                            "value": "cover",
+                            "label": "填充属性"
+                        }
+                    },
+                    "valueType": "String",
+                    "uuid": "e0f48eb6-510a-442f-9d9e-6dc79028f211",
+                    "brotherUuid": "e0f48eb6-510a-442f-9d9e-6dc79028f211",
+                    "autoHeight": false,
+                    "autoWidth": false,
+                    "isForm": false,
+                    "componentsType": "basic",
+                    "invisible": false
+                },
+                {
+                    "elName": "SeeRankListJimu",
+                    "animations": [],
+                    "commonStyle": {
+                        "position": "absolute",
+                        "width": 340,
+                        "height": null,
+                        "top": 567.5,
+                        "left": 17.5,
+                        "paddingTop": 0,
+                        "paddingLeft": 9,
+                        "paddingRight": 9,
+                        "paddingBottom": 55,
+                        "marginTop": 0,
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                        "marginBottom": 0,
+                        "borderWidth": 2,
+                        "borderColor": "rgba(58, 65, 174, 1)",
+                        "borderStyle": "solid",
+                        "borderRadius": 5,
+                        "boxShadow": "",
+                        "fontSize": 13,
+                        "fontWeight": 500,
+                        "lineHeight": 1.4,
+                        "letterSpacing": 0,
+                        "textAlign": "left",
+                        "color": "rgba(209, 211, 255, 1)",
+                        "backgroundColor": "rgba(23, 48, 108, 1)",
+                        "backgroundImage": "",
+                        "backgroundSize": "cover",
+                        "opacity": 1,
+                        "zIndex": 12,
+                        "transition": "unset"
+                    },
+                    "events": [],
+                    "propsValue": {
+                        "configBtn": {
+                            "value": "/pages/activity/rank-config/index.html",
+                            "label": "数据源配置"
+                        },
+                        "text_api": {
+                            "value": "https://activity.gmugmu.com/SuperStar/rankList",
+                            "label": "接口配置"
+                        },
+                        "color_title": {
+                            "value": "rgba(114, 120, 215, 1)",
+                            "label": "标题颜色"
+                        },
+                        "color_myRank": {
+                            "value": "rgba(21, 39, 89, 1)",
+                            "label": "我的排名颜色"
+                        },
+                        "imageSrc_myRank": {
+                            "value": "https://img.ikstatic.cn/MTU5NzEzNDM3ODk3MiMyMzQjcG5n.png",
+                            "label": "我的排名背景"
+                        },
+                        "number_myRankBottom": {
+                            "value": 18,
+                            "label": "我的排名bottom值"
+                        },
+                        "text_rank": {
+                            "value": "排名",
+                            "label": "排名"
+                        },
+                        "text_avatar": {
+                            "value": "头像",
+                            "label": "头像"
+                        },
+                        "text_nick": {
+                            "value": "昵称",
+                            "label": "昵称"
+                        },
+                        "text_giftCount": {
+                            "value": "星积分",
+                            "label": "礼物数量"
+                        },
+                        "imageSrc_giftIcon": {
+                            "value": "//img.ikstatic.cn/MTU5NzA0MDQ1MzI2NCM4NTYjcG5n.png",
+                            "label": "礼物图标"
+                        },
+                        "imageSrc_firstIcon": {
+                            "value": "//img.ikstatic.cn/MTU5NzA0MDQ1MzY4MyMxNTcjcG5n.png",
+                            "label": "第一名图标"
+                        },
+                        "text_firstRemark": {
+                            "value": "",
+                            "label": "第一名备注文字"
+                        },
+                        "text_secondRemark": {
+                            "value": "",
+                            "label": "第二名备注文字"
+                        },
+                        "text_thirdRemark": {
+                            "value": "",
+                            "label": "第三名备注文字"
+                        },
+                        "imageSrc_emptyBg": {
+                            "value": " ",
+                            "label": "省缺图"
+                        },
+                        "currentPageIndex": 0
+                    },
+                    "valueType": "String",
+                    "uuid": "9d20825d-63cd-4fa1-8760-df7b4aa280fa",
+                    "brotherUuid": "9d20825d-63cd-4fa1-8760-df7b4aa280fa",
+                    "autoHeight": true,
+                    "autoWidth": false,
+                    "isForm": false,
+                    "componentsType": "business",
+                    "invisible": false
+                },
+                {
+                    "elName": "SeeModal",
+                    "animations": [],
+                    "commonStyle": {
+                        "position": "absolute",
+                        "width": 305,
+                        "height": 382,
+                        "top": 0,
+                        "left": 0,
+                        "paddingTop": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingBottom": 0,
+                        "marginTop": 0,
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                        "marginBottom": 0,
+                        "borderWidth": 0,
+                        "borderColor": "",
+                        "borderStyle": "solid",
+                        "borderRadius": 14,
+                        "boxShadow": "",
+                        "fontSize": 16,
+                        "fontWeight": 500,
+                        "lineHeight": 1.4,
+                        "letterSpacing": 0,
+                        "textAlign": "left",
+                        "color": "#000000",
+                        "backgroundColor": null,
+                        "backgroundImage": "//img.ikstatic.cn/MTU5NzEyODk4NjY3NyMxMTAjcG5n.png",
+                        "backgroundSize": "cover",
+                        "opacity": 1,
+                        "zIndex": 13,
+                        "transition": "unset"
+                    },
+                    "events": [],
+                    "propsValue": {
+                        "defaultStyle": {},
+                        "radio_defaultShow": {
+                            "value": 2,
+                            "label": "首次进入打开弹窗",
+                            "options": [
+                                {
+                                    "content": "是",
+                                    "value": 1
+                                },
+                                {
+                                    "content": "否",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        "radio_closeBtn": {
+                            "value": 1,
+                            "label": "展示关闭按钮",
+                            "options": [
+                                {
+                                    "content": "是",
+                                    "value": 1
+                                },
+                                {
+                                    "content": "否",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        "radio_closeBtnPosition": {
+                            "value": 2,
+                            "label": "关闭按钮位置",
+                            "options": [
+                                {
+                                    "content": "右上角",
+                                    "value": 1
+                                },
+                                {
+                                    "content": "底部",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        "imageSrc_closeBtn": {
+                            "value": "//img.ikstatic.cn/MTU5NzEzMjQ2MjI3MiM2NTIjcG5n.png",
+                            "label": "关闭按钮图片"
+                        },
+                        "richText_content": {
+                            "value": "",
+                            "label": "弹窗内容:"
+                        }
+                    },
+                    "valueType": "String",
+                    "uuid": "299d8944-bc72-486f-9516-ef0d304894ba",
+                    "brotherUuid": "299d8944-bc72-486f-9516-ef0d304894ba",
+                    "autoHeight": false,
+                    "autoWidth": false,
+                    "isForm": false,
+                    "componentsType": "basic",
+                    "invisible": true
+                }
+            ],
+            "commonStyle": {
+                "backgroundColor": "rgba(69, 77, 187, 1)",
+                "backgroundImage": "//img.ikstatic.cn/MTU5NzEyODA3OTU0OCM3MTkjcG5n.png",
+                "backgroundSize": "cover",
+                "width": 375,
+                "height": 1920
+            }
+        }
+    ],
+    "created": "2020-04-26T02:05:35.471Z",
+    "updated": "2020-05-11T11:40:43.156Z",
+    "__v": 0,
+    "fullScreen": {
+        "field": "",
+        "value": ""
+    }
+}

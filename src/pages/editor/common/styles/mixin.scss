@@ -1,0 +1,18 @@
+/* 混入组件样 */
+@import "variables";
+
+@mixin font-gradient {
+  background: linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin font-white {
+  background: linear-gradient(90deg, #fff, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin bg-gradient {
+  background: linear-gradient(90deg, #8252fa 0%, #eca2f1 100%);
+}
