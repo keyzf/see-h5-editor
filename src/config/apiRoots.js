@@ -15,13 +15,13 @@ export const HOST_ENV = [HOST_ONLINE, HOST_BETA, HOST_TEST].find(key => HOST.ind
 
 export const prodRootMap = {
   [HOST_ONLINE]: {
-    baseapi: '//github.api.huangjin.cn/'
+    baseapi: 'https://www.fastmock.site/mock/3b9a90fe1d7a5e99d613b18a7f9f9af8/see-h5'
   },
   [HOST_BETA]: {
-    baseapi: '//betagithub.api.huangjin.cn/'
+    baseapi: 'https://www.fastmock.site/mock/3b9a90fe1d7a5e99d613b18a7f9f9af8/see-h5'
   },
   [HOST_TEST]: {
-    baseapi: '//testgithub.api.huangjin.cn/'
+    baseapi: 'https://www.fastmock.site/mock/3b9a90fe1d7a5e99d613b18a7f9f9af8/see-h5'
   }
 }
 

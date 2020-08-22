@@ -10,7 +10,7 @@ class Apis {
      * 获取活动详情
      * @param {activity_id:1}
      */
-    GET_ACTIVITY_DETAIL (params) {
+    GET_PAGE_DETAIL (params) {
         return request({
             method: 'get',
             url: 'page/queryDetail',

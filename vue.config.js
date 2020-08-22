@@ -8,8 +8,14 @@ const IS_BUILD_GH_PAGES = BUILD_PAGE === 'GH_PAGES' // 是否为github pages 构
 let devServer = {
   port: 9001,
   proxy: { // 代理
-    '/activity/*': {
-      target: 'http://xxx.xxx.cn',//设置你调用的接口域名和端口号 别忘了加http
+    '/page/*': { // 代理页面接口
+      target: 'https://www.fastmock.site/mock/3b9a90fe1d7a5e99d613b18a7f9f9af8/see-h5',//设置你调用的接口域名和端口号 别忘了加http
+      ws: false,
+      changeOrigin: true,
+      pathRewrite: {}
+    },
+    '/mock/*': { // 代理模拟数据接口
+      target: 'https://www.fastmock.site/mock/3b9a90fe1d7a5e99d613b18a7f9f9af8/see-h5',//设置你调用的接口域名和端口号 别忘了加http
       ws: false,
       changeOrigin: true,
       pathRewrite: {}
