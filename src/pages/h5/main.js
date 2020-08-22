@@ -15,7 +15,7 @@ Vue.mixin(pluginMixin)
 Vue.prototype.RUNTIME_ENV = RUN_ENV_H5 // 组件的运行环境 因为同一个组件在编辑器和H5 可能有不同的展现形式
 
 window.vm = new Vue({
-    store,
-    router,
-    render: h => h(App)
+  store,
+  router,
+  render: h => h(App)
 }).$mount('#app')
