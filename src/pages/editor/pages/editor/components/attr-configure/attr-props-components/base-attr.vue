@@ -37,6 +37,7 @@
                     <p class="attr-item-title">尺寸：</p>
                     <div class="col-1 attr-item-edit-input">
                         <el-checkbox
+                            disabled
                             v-model="activeElement.autoWidth"
                             @input="handleAutoWidth"
                         />
@@ -734,7 +735,7 @@ export default {
             if (enable) {
                 this.activeElement.commonStyle.height = 'auto'
             } else {
-                this.activeElement.commonStyle.height = this.activeElement.commonStyle.height || 300
+                this.activeElement.commonStyle.height = 300
             }
         },
 
