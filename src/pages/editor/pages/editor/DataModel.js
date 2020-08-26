@@ -160,7 +160,7 @@ let getProjectConfig = function () {
  * @param styleObj
  * @param scalePoint 缩放比例
  */
-let getCommonStyle = function (styleObj, scalingRatio = 1) {
+let getCommonStyle = function (styleObj) {
     let needUnitStr = ['width', 'height', 'top', 'left', 'bottom', 'right', 'paddingTop', 'paddingLeft', 'paddingRight', 'paddingBottom', 'marginTop', 'marginLeft', 'marginRight', 'marginBottom', 'borderWidth', 'fontSize', 'borderRadius', 'letterSpacing']
     let style = {}
 
@@ -169,7 +169,7 @@ let getCommonStyle = function (styleObj, scalingRatio = 1) {
             if ((key === 'width' || key === 'height') && styleObj[key] === 0) {
                 style[key] = 'auto'
             } else {
-                style[key] = (styleObj[key] * scalingRatio) + 'px'
+                style[key] = styleObj[key] + 'px'
             }
         } else {
             style[key] = styleObj[key]

@@ -24,11 +24,7 @@
       class="see-node-info"
     >
       <template
-        v-if="
-                    nodeInfo.elements &&
-                        nodeInfo.elements.length > 0 &&
-                        nodeInfo.hasSlot
-                "
+        v-if="nodeInfo.elements &&nodeInfo.elements.length > 0 &&nodeInfo.hasSlot"
         v-slot="{ item }"
       >
         <node
@@ -332,7 +328,7 @@ export default {
     &.active {
       outline: 1px solid $primary;
 
-      .component-name {
+      > .component-name {
         display: inline-block;
       }
     }
